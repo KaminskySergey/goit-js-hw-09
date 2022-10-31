@@ -32,8 +32,6 @@ function createPromise(position, delay) {
 }
 
 
-
-
 function onFormSubmit(evt){
   evt.preventDefault()
   delayInput =  Number(evt.target.elements.delay.value);
