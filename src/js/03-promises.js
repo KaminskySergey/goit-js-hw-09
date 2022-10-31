@@ -20,10 +20,10 @@ function createPromise(position, delay) {
     
     setTimeout(() => {
       if(shouldResolve){
-        resolve(({position, delay}))
+        resolve({position, delay});
       }
       else{
-        reject(({position, delay}))
+        reject({position, delay});
       }
     }, delayInput);
   })
